@@ -1,0 +1,115 @@
+[
+    {
+      "name": "The Hobbit",
+      "year": 1937,
+      "type": "Fiction",
+      "author": "J.R.R. Tolkien",
+      "available": true,
+      "createdOn": "2024-01-01T00:00:00Z"
+    },
+    {
+      "name": "Sapiens: A Brief History of Humankind",
+      "year": 2011,
+      "type": "Non-Fiction",
+      "author": "Yuval Noah Harari",
+      "available": false,
+      "createdOn": "2023-10-10T12:00:00Z"
+    },
+    {
+      "name": "Dune",
+      "year": 1965,
+      "type": "Sci-Fi",
+      "author": "Frank Herbert",
+      "available": true,
+      "createdOn": "2022-08-15T08:30:00Z"
+    },
+    {
+      "name": "The Autobiography of Benjamin Franklin",
+      "year": 1791,
+      "type": "Biography",
+      "author": "Benjamin Franklin",
+      "available": true,
+      "createdOn": "2023-07-04T09:15:00Z"
+    },
+    {
+      "name": "1984",
+      "year": 1949,
+      "type": "Fiction",
+      "author": "George Orwell",
+      "available": false,
+      "createdOn": "2023-05-13T10:25:00Z"
+    },
+    {
+      "name": "Brave New World",
+      "year": 1932,
+      "type": "Fiction",
+      "author": "Aldous Huxley",
+      "available": true,
+      "createdOn": "2022-12-20T11:45:00Z"
+    },
+    {
+      "name": "The Wright Brothers",
+      "year": 2015,
+      "type": "Non-Fiction",
+      "author": "David McCullough",
+      "available": true,
+      "createdOn": "2024-02-15T09:00:00Z"
+    },
+    {
+      "name": "The Road",
+      "year": 2006,
+      "type": "Fiction",
+      "author": "Cormac McCarthy",
+      "available": false,
+      "createdOn": "2023-06-05T14:30:00Z"
+    },
+    {
+      "name": "A Brief History of Time",
+      "year": 1988,
+      "type": "Non-Fiction",
+      "author": "Stephen Hawking",
+      "available": true,
+      "createdOn": "2024-03-10T15:20:00Z"
+    },
+    {
+      "name": "The War of the Worlds",
+      "year": 1898,
+      "type": "Sci-Fi",
+      "author": "H.G. Wells",
+      "available": false,
+      "createdOn": "2023-08-22T18:40:00Z"
+    },
+    {
+      "name": "Steve Jobs",
+      "year": 2011,
+      "type": "Biography",
+      "author": "Walter Isaacson",
+      "available": true,
+      "createdOn": "2024-05-08T13:50:00Z"
+    },
+    {
+      "name": "The Catcher in the Rye",
+      "year": 1951,
+      "type": "Fiction",
+      "author": "J.D. Salinger",
+      "available": true,
+      "createdOn": "2023-01-28T16:10:00Z"
+    },
+    {
+      "name": "Becoming",
+      "year": 2018,
+      "type": "Biography",
+      "author": "Michelle Obama",
+      "available": false,
+      "createdOn": "2023-11-18T17:50:00Z"
+    },
+    {
+      "name": "The Three-Body Problem",
+      "year": 2008,
+      "type": "Sci-Fi",
+      "author": "Liu Cixin",
+      "available": true,
+      "createdOn": "2022-04-14T12:30:00Z"
+    }
+  ]
+  

@@ -1,0 +1,75 @@
+[
+    {
+      "name": "John",
+      "surname": "Doe",
+      "email": "john.doe@example.com",
+      "phoneNumber": "123-456-7890"
+    },
+    {
+      "name": "Jane",
+      "surname": "Doe",
+      "email": "jane.doe@example.com",
+      "phoneNumber": "987-654-3210"
+    },
+    {
+      "name": "Alice",
+      "surname": "Smith",
+      "email": "alice.smith@example.com",
+      "phoneNumber": "456-789-1230"
+    },
+    {
+      "name": "Bob",
+      "surname": "Johnson",
+      "email": "bob.johnson@example.com",
+      "phoneNumber": "321-654-9870"
+    },
+    {
+      "name": "Charlie",
+      "surname": "Brown",
+      "email": "charlie.brown@example.com",
+      "phoneNumber": "654-321-7890"
+    },
+    {
+      "name": "Diana",
+      "surname": "Prince",
+      "email": "diana.prince@example.com",
+      "phoneNumber": "789-123-4560"
+    },
+    {
+      "name": "Eve",
+      "surname": "Williams",
+      "email": "eve.williams@example.com",
+      "phoneNumber": "111-222-3333"
+    },
+    {
+      "name": "Frank",
+      "surname": "Miller",
+      "email": "frank.miller@example.com",
+      "phoneNumber": "444-555-6666"
+    },
+    {
+      "name": "Grace",
+      "surname": "Hopper",
+      "email": "grace.hopper@example.com",
+      "phoneNumber": "777-888-9999"
+    },
+    {
+      "name": "Hank",
+      "surname": "Pym",
+      "email": "hank.pym@example.com",
+      "phoneNumber": "999-888-7777"
+    },
+    {
+      "name": "Irene",
+      "surname": "Adler",
+      "email": "irene.adler@example.com",
+      "phoneNumber": "222-333-4444"
+    },
+    {
+      "name": "Jack",
+      "surname": "Reacher",
+      "email": "jack.reacher@example.com",
+      "phoneNumber": "555-666-7777"
+    }
+  ]
+  
