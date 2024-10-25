@@ -48,8 +48,8 @@ router.get('/:id', async (req, res) => {
 
 // POST: Create a new book
 router.post('/', async (req, res) => {
-    const { name, year, type, author, available, createdOn } = req.body;
-
+    const { name, year, type, author, createdOn } = req.body;
+    const available = true;
     const book = new Book({
         name,
         year,
