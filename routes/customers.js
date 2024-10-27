@@ -60,8 +60,13 @@ router.put('/:id', getCustomer, async (req, res) => {
 // DELETE: Delete a customer by ID
 router.delete('/:id', getCustomer, async (req, res) => {
     try {
-        await res.customer.remove();
-        res.json({ message: 'Customer deleted' });
+        const deletedCustomer = await Customer.findByIdAndDelete(req.params.id);
+        
+        if (!deletedCustomer) {
+            return res.status(404).json({ message: "Customer not found" });
+        }
+
+        res.json({ message: "Customer deleted successfully", deletedCustomer });
     } catch (err) {
         res.status(500).json({ message: err.message });
     }
