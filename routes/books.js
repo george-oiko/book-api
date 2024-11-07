@@ -87,7 +87,7 @@ router.put('/:id', async (req, res) => {
 
 router.delete('/:id', async (req, res) => {
     try {
-        const activeReservation = await Reservation.findOne({ bookId: req.params.id });
+        const activeReservation = await Reservation.findOne({ book: req.params.id });
         
         if (activeReservation) {
             return res.status(400).json({ message: "Cannot delete a book that is part of a reservation." });

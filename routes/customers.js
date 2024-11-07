@@ -61,7 +61,7 @@ router.put('/:id', getCustomer, async (req, res) => {
 router.delete('/:id', getCustomer, async (req, res) => {
     try {
 
-        const activeReservation = await Reservation.findOne({ customerId: req.params.id });
+        const activeReservation = await Reservation.findOne({ customer: req.params.id });
         
         if (activeReservation) {
             return res.status(400).json({ message: "Cannot delete a customer that has an active reservation." });
