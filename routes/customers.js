@@ -1,7 +1,7 @@
 const express = require('express');
 const Customer = require('../models/customer');  // Assuming you save the Customer schema as customer.js in models directory
 const router = express.Router();
-
+const Reservation = require('../models/reservation');
 // GET: Fetch all customers
 router.get('/', async (req, res) => {
     try {
@@ -60,6 +60,13 @@ router.put('/:id', getCustomer, async (req, res) => {
 // DELETE: Delete a customer by ID
 router.delete('/:id', getCustomer, async (req, res) => {
     try {
+
+        const activeReservation = await Reservation.findOne({ customerId: req.params.id });
+        
+        if (activeReservation) {
+            return res.status(400).json({ message: "Cannot delete a customer that has an active reservation." });
+        }
+
         const deletedCustomer = await Customer.findByIdAndDelete(req.params.id);
         
         if (!deletedCustomer) {

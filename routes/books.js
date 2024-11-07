@@ -1,7 +1,7 @@
 const express = require('express');
 const Book = require('../models/book');
 const router = express.Router();
-
+const Reservation = require('../models/reservation');
 router.get('/', async (req, res) => {
     try {
         const { search, sort } = req.query;
@@ -87,6 +87,11 @@ router.put('/:id', async (req, res) => {
 
 router.delete('/:id', async (req, res) => {
     try {
+        const activeReservation = await Reservation.findOne({ bookId: req.params.id });
+        
+        if (activeReservation) {
+            return res.status(400).json({ message: "Cannot delete a book that is part of a reservation." });
+        }
         const deletedBook = await Book.findByIdAndDelete(req.params.id);
         if (!deletedBook) {
             return res.status(404).json({ message: "Book not found" });
